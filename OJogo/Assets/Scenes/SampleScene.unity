@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f912af3eed050774aa237e23dca13d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GolPlayer1: 1
+  GolPlayer1: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f912af3eed050774aa237e23dca13d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GolPlayer1: 0
+  GolPlayer1: 1
 --- !u!1 &938587979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0c1b1eca98802a742bb190caad16d71a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1170,8 +1170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PontoPlayer1: 0
   PontoPlayer2: 0
-  textoPontuacao: {fileID: 0}
-  somGol: {fileID: 0}
+  textoPontuacao: {fileID: 1954985595}
+  somGol: {fileID: 1799821122}
   Pause: 0
 --- !u!1 &1954985593
 GameObject:

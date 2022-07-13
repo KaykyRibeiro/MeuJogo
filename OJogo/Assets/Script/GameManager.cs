@@ -74,6 +74,10 @@ public class GameManager : MonoBehaviour
         if (Pause == false)
         {
             Time.timeScale = 0f;
+            textoPontuacao.text = "Pong for two" +
+                                  "\n[Esc] Quit Game" +
+                                  "\n[R] Reset Game" +
+                                  "\n[Espace] Start and Pause Game";
             Pause = true;
         }
         else
